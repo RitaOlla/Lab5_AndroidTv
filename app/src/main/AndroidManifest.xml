@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rita_ola.tvphotogallery">
+
+    <!-- TV app need to declare touchscreen not required -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <!--
+     true:  your app runs on only TV
+     false: your app runs on phone and TV -->
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Leanback"
+        android:banner="@drawable/unicorn_icon">
+        <activity
+            android:name="com.example.rita_ola.tvphotogallery.MainActivity"
+            android:icon="@drawable/unicorn_icon"
+            android:label="@string/app_name"
+            android:logo="@drawable/unicorn_icon" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

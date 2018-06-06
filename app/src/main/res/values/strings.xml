@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tvPhotoGallery</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello in my gallery!</string>
+    <string name="peppa">Peppa pig</string>
+    <string name="paw">Paw Patrol</string>
+    <string name="shaun">Shaun The Sheep</string>
+    <string name="peppa1">Peppa pig 1</string>
+    <string name="peppa2">Peppa pig 2</string>
+    <string name="peppa3">Peppa pig 3</string>
+    <string name="paw1">Paw Patrol 1</string>
+    <string name="paw2">Paw Patrol 2</string>
+    <string name="paw3">Paw Patrol 3</string>
+    <string name="shaun1">Shaun The Sheep 1</string>
+    <string name="shaun2">Shaun The Sheep 2</string>
+    <string name="shaun3">Shaun The Sheep 3</string>
+</resources>
